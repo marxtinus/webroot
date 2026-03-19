@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PageController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -25,9 +26,11 @@ Route::get('/laravel', function () {
     ]);
 });
 
-Route::get('/', function () {
+Route::get('/enconstruction', function () {
     return Inertia::render('UnderConstruction');
 })->name('underconstruction');
+
+Route::get('/', [PageController::class, 'index'])->name('page.index');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
@@ -38,5 +41,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
 
 require __DIR__.'/auth.php';
