@@ -8,7 +8,7 @@
                 <!-- Colonne gauche : 1/4 -->
                 <div class="w-1/4 bg-gray-200 flex items-center justify-center p-4">
                     <img
-                        src="/img/moi2.png"
+                        src="/img/moi3.png"
                         alt="Photo de profil"
                         class="rounded-xl object-cover w-full shadow-md"
                     />
