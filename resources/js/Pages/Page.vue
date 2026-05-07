@@ -19,6 +19,7 @@
                     <h2 class="text-2xl font-bold text-gray-800">Portefolio</h2>
                     <h2 class="text-2xl font-bold text-gray-800">Martin Bergeron</h2>
                     <p class="text-gray-500 text-sm italic">Développeur Web Automatisations et Rapports</p>
+                    <hr class="my-2 border-gray-200" />
                     <p class="text-gray-500 text-sm">Veuillez noter que le présent portfolio est en cours de développement.</p>
                     <p class="text-gray-500 text-sm">Je vous prie de ne pas juger trop sévèrement, il s’agit d’un travail inachevé</p>
 
@@ -67,7 +68,7 @@
     <img src="/img/wheel.jpg" alt="Projet 1" class="w-full h-40 object-cover" />
                     <div class="p-4">
                         <h3 class="text-lg font-semibold text-gray-800">Projet 1</h3>
-                        <p class="text-sm text-gray-600">Expérimentation avec Vue.js : les usagers initiaux proviennent du contrôleur, mais le contenu est entièrement transmis à des variables dynamiques qui peuvent être manipulées par le front-end. Utilisation de la librairie vue-winwheel.
+                        <p class="text-sm text-gray-600">Expérimentation Vue.js :librairie vue-winwheel.
                         </p>
                     </div>
                 </a>
