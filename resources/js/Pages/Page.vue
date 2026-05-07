@@ -19,6 +19,9 @@
                     <h2 class="text-2xl font-bold text-gray-800">Portefolio</h2>
                     <h2 class="text-2xl font-bold text-gray-800">Martin Bergeron</h2>
                     <p class="text-gray-500 text-sm italic">Développeur Web Automatisations et Rapports</p>
+                    <p class="text-gray-500 text-sm">Veuillez noter que le présent portfolio est en cours de développement.</p>
+                    <p class="text-gray-500 text-sm">Je vous prie de ne pas juger trop sévèrement, il s’agit d’un travail inachevé</p>
+
 
                     <hr class="my-2 border-gray-200" />
 
